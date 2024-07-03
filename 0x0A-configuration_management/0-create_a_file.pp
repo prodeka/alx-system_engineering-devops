@@ -1,4 +1,4 @@
-# Create a file in /tmp
+# Ce manifest crée un fichier avec des attributs spécifiques
 file { 'school':
   content => 'I love Puppet',
   group   => 'www-data',
