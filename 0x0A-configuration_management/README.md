@@ -1,21 +1,15 @@
-Configuration management
+# 0x0A. Configuration Management
 
-The following Resources were explored in understranding this project;
+## Overview
 
--Intro to Configuration Management.
+This project focuses on configuration management using Puppet, a tool used to automate the administration of IT infrastructure. The goal is to familiarize with basic Puppet syntax and functionality through a series of tasks that automate common sysadmin activities.
 
--Puppet resource type: file (check “Resource types” for all manifest types in the left menu).
+## Learning Objectives
 
--Puppet’s Declarative Language: Modeling Instead of Scripting,
-
--Puppet lint.
-
--Puppet emacs mode.
-
-Below were the files created and their expected output :
-
-0-create_a_file.pp - Creates a file in /tmp using Puppet.
-
-1-install_a_package.pp - Installs flask from pip3 using Puppet.
-
-2-execute_a_command.pp - Ccreate a manifest that kills a process named killmenow using Puppet.
+Understand the basics of configuration management
+Learn how to use Puppet to manage system configuration
+Automate tasks such as file creation, package installation, and command execution using Puppet manifests
+Prerequisites
+A working knowledge of Ubuntu 20.04 LTS
+Basic understanding of DevOps and SysAdmin concepts
+Familiarity with scripting and CI/CD practices
